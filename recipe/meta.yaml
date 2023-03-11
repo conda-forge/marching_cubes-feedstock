@@ -14,7 +14,7 @@ source:
     - 0001-ssize_t-in-parallel-fors-for-windows.patch  # [win]
 
 build:
-  number: 0
+  number: 1
 
 requirements:
   build:
