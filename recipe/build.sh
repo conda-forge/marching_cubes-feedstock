@@ -6,7 +6,7 @@ fi
 
 mkdir build
 cd build
-cmake ..\
+cmake ${CMAKE_ARGS} ..\
     -DCMAKE_CXX_FLAGS="${CXXFLAGS}" \
     -DCMAKE_INSTALL_PREFIX=${PREFIX} \
     -DCMAKE_PREFIX_PATH=${PREFIX} \
