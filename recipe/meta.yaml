@@ -28,7 +28,7 @@ requirements:
     - libgomp      # [linux]
   host:
     - python
-    - libboost-headers
+    - libboost-devel
     - pybind11
   run:
     - python
