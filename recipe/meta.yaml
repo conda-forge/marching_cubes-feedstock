@@ -14,7 +14,10 @@ source:
     - 0001-ssize_t-in-parallel-fors-for-windows.patch  # [win]
 
 build:
-  number: 1
+  number: 2
+  ignore_run_exports_from:
+    # need to find CMake data at build time, but no linkage
+    - libboost-devel
 
 requirements:
   build:
@@ -28,7 +31,7 @@ requirements:
     - libgomp      # [linux]
   host:
     - python
-    - boost-cpp
+    - libboost-devel
     - pybind11
   run:
     - python
