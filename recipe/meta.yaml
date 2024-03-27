@@ -14,7 +14,7 @@ source:
     - 0001-ssize_t-in-parallel-fors-for-windows.patch  # [win]
 
 build:
-  number: 3
+  number: 4
   ignore_run_exports_from:
     # need to find CMake data at build time, but no linkage
     - libboost-devel
@@ -27,6 +27,7 @@ requirements:
     - cmake
     - make  # [not win]
     - {{ compiler("cxx") }}
+    - {{ stdlib("c") }}
     - llvm-openmp  # [osx]
     - libgomp      # [linux]
   host:
