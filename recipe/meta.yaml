@@ -14,7 +14,7 @@ source:
     - 0001-ssize_t-in-parallel-fors-for-windows.patch  # [win]
 
 build:
-  number: 6
+  number: 7
   ignore_run_exports_from:
     # need to find CMake data at build time, but no linkage
     - libboost-devel
