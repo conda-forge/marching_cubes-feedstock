@@ -181,7 +181,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-marching_cubes-green.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-marching__cubes-green.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/marching_cubes.svg)](https://anaconda.org/conda-forge/marching_cubes) |
 
 Installing marching_cubes
 =========================
