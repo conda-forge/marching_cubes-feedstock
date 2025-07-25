@@ -1,5 +1,5 @@
 {% set name = "marching_cubes" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://github.com/ilastik/marching_cubes/archive/{{ version }}.tar.gz
-  sha256: e173ca9a79382ff21f25dad5094133ad524d0958de773d8ea129a431d0a242de
+  sha256: e38f9a318f20d1185e80157e6f307b577e307552b8a717d7370dddcce8ac45e4
   patches:
     # MSVC only supports openmp 2.0 syntax - there unsigned loop counter will
     # not compile. Can be removed as soon as MSVC supports newer omp version
     - 0001-ssize_t-in-parallel-fors-for-windows.patch  # [win]
 
 build:
-  number: 7
+  number: 0
   ignore_run_exports_from:
     # need to find CMake data at build time, but no linkage
     - libboost-devel
